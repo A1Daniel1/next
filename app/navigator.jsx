@@ -14,7 +14,6 @@ function Navigator() {
                             <Link href="/" class="text-white hover:text-gray-400">Home</Link>
                             <Link href="/about" class="text-white hover:text-gray-400">about</Link>
                             <Link href="/service" class="text-white hover:text-gray-400">service</Link>
-                            <Link href="#" class="text-white hover:text-gray-400">contact</Link>
                         </div>
                     </div>
                 </div>
