@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Navigator() {
     return (
@@ -10,10 +11,10 @@ function Navigator() {
                             Mi Navegador
                         </div>
                         <div class="hidden md:flex space-x-4">
-                            <a href="#" class="text-white hover:text-gray-400">Inicio</a>
-                            <a href="#" class="text-white hover:text-gray-400">Acerca de</a>
-                            <a href="#" class="text-white hover:text-gray-400">Servicios</a>
-                            <a href="#" class="text-white hover:text-gray-400">Contacto</a>
+                            <Link href="/" class="text-white hover:text-gray-400">Home</Link>
+                            <Link href="/about" class="text-white hover:text-gray-400">about</Link>
+                            <Link href="#" class="text-white hover:text-gray-400">service</Link>
+                            <Link href="#" class="text-white hover:text-gray-400">contact</Link>
                         </div>
                     </div>
                 </div>
