@@ -3,7 +3,6 @@ import React from "react";
 function ImageTitle() {
   return (
     <div className="landing-page">
-      <img src="/stock.webp" alt="Imagen de fondo" className="img-bg" />
 
       <div className="absolute inset-0 flex items-center justify-center flex-col text-white text-center">
         <h1 className="font-sans text-7xl">welcome to my app</h1>
