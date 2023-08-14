@@ -5,12 +5,10 @@ function ImageTitle() {
     <div className="landing-page">
 
       <div className="absolute inset-0 flex items-center justify-center flex-col text-white text-center">
-        <h1 className="font-sans text-7xl">welcome to my app</h1>
-        <p className="italic">the app to do whatever i want</p>
+        <h1 className="font-sans text-7xl">Climate app</h1>
+        <p className="italic">Just select the city, and check the climate!</p>
 
-        <button className="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-          Start
-        </button>
+        <input></input>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function Navigator() {
                 <div class="container mx-auto px-4">
                     <div class="flex justify-between items-center">
                         <div class="text-white font-bold text-xl">
-                            Mi Navegador
+                            Climate App
                         </div>
                         <div class="hidden md:flex space-x-4">
                             <Link href="/" class="text-white hover:text-gray-400">Home</Link>
